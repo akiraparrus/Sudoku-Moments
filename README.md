@@ -1,47 +1,48 @@
-# Sudoku Moments Generator
+# Sudoku Moments
 
-A Python script that generates a cozy-themed printable Sudoku game PDF with puzzles of varying difficulty levels.
+A cozy-themed Sudoku game with dark/light mode support, built with HTML, CSS, and JavaScript.
 
 ## Features
 
-- Generates 9 unique Sudoku puzzles (3 each of Easy, Medium, and Hard difficulty)
-- Beautiful, cozy-themed layout with soft colors and ample white space
-- Includes inspirational quotes on each puzzle page
-- Complete answer key section
-- Clean, well-documented code for easy customization
+- Beautiful, responsive design
+- Three difficulty levels (Easy, Medium, Hard)
+- Dark/Light mode toggle
+- Row and column highlighting
+- Solution checking
+- Cozy styling with soft colors
+- Inspirational quotes
 
-## Requirements
+## Play Online
 
-- Python 3.7 or higher
-- Required packages (install using `pip install -r requirements.txt`):
-  - numpy
-  - reportlab
+You can play the game at: [https://akiraparrus.github.io/Sudoku-Moments/](https://akiraparrus.github.io/Sudoku-Moments/)
 
-## Installation
+## Local Development
 
-1. Clone or download this repository
-2. Install the required packages:
+1. Clone the repository:
    ```bash
-   pip install -r requirements.txt
+   git clone https://github.com/akiraparrus/Sudoku-Moments.git
    ```
 
-## Usage
+2. Open `index.html` in your web browser
 
-Simply run the script:
-```bash
-python sudoku_generator.py
-```
+## How to Play
 
-This will generate a PDF file named `sudoku_moments.pdf` in the current directory.
+1. Select a difficulty level (Easy, Medium, Hard)
+2. Click on empty cells to fill in numbers (1-9)
+3. Use the "Check Solution" button to verify your answers
+4. Toggle between light and dark mode using the theme button
+5. Generate a new puzzle at any time with the "New Puzzle" button
 
-## Customization
+## Technologies Used
 
-The script is designed to be easily customizable. You can modify:
+- HTML5
+- CSS3 (with CSS Variables for theming)
+- JavaScript (ES6+)
+- GitHub Pages for hosting
 
-- Colors and styling in the `setup_custom_styles` method
-- Puzzle difficulty by adjusting the number of cells removed in the `remove_numbers` method
-- Quotes by editing the quotes list in the `create_puzzle_page` method
-- Layout and spacing by adjusting the values in the `generate_pdf` method
+## Contributing
+
+Feel free to submit issues and enhancement requests!
 
 ## License
 
