@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku Moments</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <h1>Sudoku Moments</h1>
+                <p class="subtitle">A Collection of Cozy Puzzles</p>
+            </div>
+            <button id="themeToggle" class="theme-toggle">
+                <span class="theme-icon">🌙</span>
+            </button>
+        </header>
+
+        <div class="difficulty-selector">
+            <button class="difficulty-btn active" data-difficulty="easy">Easy</button>
+            <button class="difficulty-btn" data-difficulty="medium">Medium</button>
+            <button class="difficulty-btn" data-difficulty="hard">Hard</button>
+        </div>
+
+        <div class="puzzle-container">
+            <div class="puzzle" id="currentPuzzle"></div>
+        </div>
+
+        <div class="controls">
+            <button id="newPuzzle">New Puzzle</button>
+            <button id="checkSolution">Check Solution</button>
+        </div>
+
+        <div class="quote">
+            <p id="currentQuote">Take your time and enjoy the quiet</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
